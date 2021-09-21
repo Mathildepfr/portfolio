@@ -1,0 +1,80 @@
+<div class="container">
+  <div class="home-cards-presentation">
+    <div class="home-card-presentation">
+      <h1>Hi, my name is <strong>Mathilde</strong></h1>
+      <p>I love front-end web development. <br>I'm from Belgium. I live in Melbourne.<br>
+       I'm a full stack web dev. <br> I also have a master in industrial design.</p>
+      <h1>👩‍💻</h1>
+    </div>
+
+    <div class="home-card-presentation card-blue">
+      <div class="skills">
+        <h2>Skills</h2>
+        <div class="navigation">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js-square"></i>
+          <i class="fab fa-adobe"></i>
+          <i class="fas fa-cubes"></i>
+        </div>
+      </div>
+
+      <div class= "social-links">
+        <h2>Social links</h2>
+        <div class="navigation">
+          <li>
+            <a href="https://www.behance.net/MathildePeiffer" target="_blank">
+              <i class="fab fa-behance-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/mathilde-peiffer/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/mathildepeiffer/?hl=fr" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Mathildepfr" target="_blank">
+              <i class="fab fa-github-square"></i>
+            </a>
+          </li>
+        </div>
+      </div>
+
+      <div class="languages">
+        <h2>Languages</h2>
+        <div class="navigation">
+          <div class="btn btn-languages">
+            French
+          </div>
+          <div class="btn btn-languages">
+            English
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="home-projects">
+    <div class="home-projects-card">
+      <%= link_to artco_path(@artco) do %>
+        <%= image_tag "ArtCo-computer.jpg", alt:"Art Co landing page", class:"img-fluid  img-project"%>
+      <% end %>
+      <p>Art Co</p>
+    </div>
+
+    <div class="home-projects-card">
+      <%= image_tag "Movies-computer.jpeg" %>
+    </div>
+
+    <div class="home-projects-card">
+      <%= image_tag "Ratforhat1.jpeg" %>
+    </div>
+  </div>
+</div>

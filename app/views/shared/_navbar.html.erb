@@ -1,0 +1,29 @@
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon navbar-lewagon-darkblue">
+
+  <%= link_to root_path, class: "navbar-brand logo-wrapper" do %>
+    <%= image_tag "logo.png", class:"color-logo" %>
+  <% end %>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item active">
+          <%= link_to "Home", root_path, class: "nav-link dashboard-link" %>
+        </li>
+        <li class="nav-item active">
+          <%= link_to "About", about_path, class: "nav-link dashboard-link" %>
+        </li>
+        <li class="nav-item active">
+          <%= link_to "Contact", contact_path, class: "nav-link dashboard-link" %>
+        </li>
+        <li class="nav-item dropdown">
+          <%= image_tag 'ProfilePicture.JPG', class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+        </li>
+
+    </ul>
+  </div>
+</div>
