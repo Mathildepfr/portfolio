@@ -140,3 +140,21 @@
     }
   }
 }
+
+.about-navigation {
+  position: fixed;
+  left: 20px;
+  top: 150px;
+  li {
+    list-style-type: none;
+  }
+  i {
+    color: rgb(206, 206, 206);
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-align: center;
+  }
+  i:hover {
+    color: #1C1E27;
+  }
+}

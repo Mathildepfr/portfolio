@@ -1,6 +1,6 @@
 .container-clock {
   position: fixed;
-  right: 20px;
+  right: 30px;
   top: 130px;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .gradient {
-  background: radial-gradient(#3333FF, #fafbffb0, #babeec);
+  background: radial-gradient(#d0d0d0, #ffffffb0, #cecece);;
 }
 
 .clock-face {
@@ -30,7 +30,7 @@
 .hand {
   width: 50%;
   height: 6px;
-  background: black;
+  background: rgba(170, 170, 170, 0.637);
   position: absolute;
   top: 50%;
   transform-origin: 100%;
@@ -42,7 +42,7 @@
 
 .hour-hand {
   height: 7px;
-  background: black;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .second-hand {
