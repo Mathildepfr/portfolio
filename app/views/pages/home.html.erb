@@ -70,11 +70,49 @@
     </div>
 
     <div class="home-projects-card">
-      <%= image_tag "Movies-computer.jpeg" %>
+      <%= link_to movies_path(@movies) do %>
+        <%= image_tag "Movies-computer.jpeg", alt:"Movies landing page", class:"img-fluid  img-project"%>
+      <% end %>
+      <p>Movies & Lists</p>
     </div>
 
     <div class="home-projects-card">
-      <%= image_tag "Ratforhat1.jpeg" %>
+      <%= link_to hatsrats_path(@hatsrats) do %>
+        <%= image_tag "portfolio/Ratforhat1.jpeg", alt:"Hats for Rats landing page", class:"img-fluid  img-project"%>
+      <% end %>
+      <p>Hats for Rats</p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="home-behance">
+    <a href="https://www.behance.net/MathildePeiffer" target="_blank">Behance profile for industrial design projects</a>
+    <div class="home-cards-behance">
+      <div class="home-card-behance">
+        <%= image_tag 'portfolio/Light.jpeg'%>
+      </div>
+      <div class="home-card-behance">
+        <%= image_tag 'portfolio/Boxes.jpeg'%>
+      </div>
+      <div class="home-card-behance">
+        <%= image_tag 'portfolio/Drawings.jpeg'%>
+      </div>
+      <div class="home-card-behance">
+        <%= image_tag 'portfolio/Plant.jpeg'%>
+      </div>
+      <div class="home-card-behance">
+        <%= image_tag 'portfolio/Forge.jpeg'%>
+      </div>
+      <div class="home-card-behance">
+        <%= image_tag 'portfolio/Divan.jpeg'%>
+      </div>
+      <div class="home-card-behance">
+        <%= image_tag 'portfolio/SchoolboyQ.jpeg'%>
+      </div>
+      <div class="home-card-behance">
+        <%= image_tag 'portfolio/Desk.jpeg'%>
+      </div>
     </div>
   </div>
 </div>

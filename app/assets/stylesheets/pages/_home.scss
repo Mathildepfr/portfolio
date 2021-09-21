@@ -101,5 +101,32 @@
   gap: 2%;
   img {
     width: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    background-size: cover;
+    border-radius: 8px;
+    height: 330px;
+  }
+  img:hover {
+    border: 3px solid #1C1E27;
+  }
+}
+
+.home-cards-behance {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2%;
+  .home-card-behance {
+    img {
+      width: 100%;
+      height: 250px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      background-size: cover;
+      border-radius: 8px;
+      object-fit: cover;
+      object-position: center;
+    }
+    img:hover {
+      opacity: 0.8;
+    }
   }
 }
