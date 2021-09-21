@@ -1,0 +1,58 @@
+.container-clock {
+  position: fixed;
+  right: 20px;
+  top: 130px;
+}
+
+.clock {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  margin: 3%;
+  position: relative;
+  padding: 2rem;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  z-index: 900;
+}
+
+.gradient {
+  background: radial-gradient(#3333FF, #fafbffb0, #babeec);
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translate(-3px);
+  z-index: 900;
+}
+
+.hand {
+  width: 50%;
+  height: 6px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0, 2.57, 0.58, 1);
+  z-index: 900;
+}
+
+.hour-hand {
+  height: 7px;
+  background: black;
+}
+
+.second-hand {
+  opacity: 0.2;
+}
+
+.clocks {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  margin: 2%;
+  z-index: 900;
+}
