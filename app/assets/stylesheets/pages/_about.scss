@@ -116,3 +116,27 @@
     box-shadow: 2px 2px rgba(22, 0, 0, 0.5);
   }
 }
+
+.about-whatilove {
+  text-align: center;
+  background-color: white;
+  padding: 5%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin-top: 7%;
+  padding-bottom: 7%;
+  h4 {
+    margin-bottom: 4%;
+  }
+  .cards-illu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 6%;
+    img {
+      width: 60%;
+    }
+    .card-illu {
+      margin-bottom: 8%;
+    }
+  }
+}
