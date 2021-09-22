@@ -17,23 +17,26 @@
     margin: 0;
     margin-left: 2%;
     margin-top: 2%;
+    margin-bottom: 4%;
   }
   p {
     color: black;
-    text-align: center;
+    text-align: left;
     font-size: 85%;
     margin-top: 4%;
     margin-bottom: 4%;
   }
-  .education {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-    img {
-      width: 10%;
+  .education-container {
+    .education {
+      display: grid;
+      grid-template-columns: 1fr 1.8fr;
+      align-items: center;
+      width: 60%;
+      margin: 0 auto;
+      justify-items: start;
+      img {
+        width: 40%;
+      }
     }
   }
 }
