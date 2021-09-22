@@ -9,9 +9,13 @@
   padding: 4%;
   margin-bottom: 5%;
   h1, h2, h3, a, p {
+    font-size: 140%;
     color: white;
     text-decoration: none;
     text-align: center;
+    a {
+      font-size: 100%;
+    }
     a:hover {
       color: #3333FF;
     }
@@ -20,8 +24,10 @@
     color: rgba(194, 194, 194, 0.596);
     text-decoration: none;
     text-align: center;
+    font-size: 100%;
     a {
       color: rgba(194, 194, 194, 0.596);
+      font-size: 100%;
     }
     a:hover {
       color: #3333FF;
