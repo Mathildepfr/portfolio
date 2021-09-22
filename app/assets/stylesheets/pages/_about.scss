@@ -161,3 +161,32 @@
     color: #1C1E27;
   }
 }
+
+// Small devices
+@media (max-width: 999px) {
+  .container-clock {
+    display: none;
+  }
+  .about-navigation {
+    display: none;
+  }
+  .about-cards-presentation {
+    grid-template-columns: 1fr;
+  }
+  .cards-illu {
+    grid-template-columns: 1fr 1fr!important;
+  }
+  .about-whatilove {
+    height: 700px;
+  }
+}
+
+// Medium devices
+@media (min-width: 1000px) and (max-width: 1700px) {
+  .container-clock {
+    display: none;
+  }
+  .about-navigation {
+    display: none;
+  }
+}

@@ -145,3 +145,26 @@
     color: #3333FF;
   }
 }
+
+// Small devices
+@media (max-width: 999px) {
+  .container {
+    margin-top: 15%;
+  }
+  .home-cards-presentation {
+    grid-template-columns: 1fr;
+  }
+  .home-projects {
+    grid-template-columns: 1fr;
+  }
+  .home-cards-behance {
+    grid-template-columns: 1fr!important;
+  }
+}
+
+// Medium devices
+@media (min-width: 1000px) and (max-width: 1700px) {
+  .home-projects {
+    grid-template-columns: 1fr 1fr;
+  }
+}
