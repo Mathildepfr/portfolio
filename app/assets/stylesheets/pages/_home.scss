@@ -1,7 +1,42 @@
 // Specific CSS for home-page
 .container {
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   margin-top: 3%;
+}
+
+.container-dark {
+  background-color: #1C1E27;
+  padding: 4%;
+  margin-bottom: 5%;
+  h1, h2, h3, a, p {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    a:hover {
+      color: #3333FF;
+    }
+  }
+  h4 {
+    color: rgba(194, 194, 194, 0.596);
+    text-decoration: none;
+    text-align: center;
+    a {
+      color: rgba(194, 194, 194, 0.596);
+    }
+    a:hover {
+      color: #3333FF;
+    }
+  }
+  i {
+    color: white;
+    font-size: 3rem;
+    display: block;
+    text-align: center;
+    margin-top: 2%;
+    &:hover {
+      color: #3333FF;
+    }
+  }
 }
 
 .home-cards-presentation {
@@ -114,6 +149,9 @@
   img:hover {
     border: 3px solid #3333FF;
   }
+  p {
+    color: white;
+  }
 }
 
 .home-behance {
@@ -137,7 +175,7 @@
     }
   }
   a {
-    color: black;
+    color: #1C1E27;
     text-decoration: none;
     font-size: 150%;
   }
