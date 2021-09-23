@@ -98,12 +98,10 @@
 
     <div class="challenges-grid-drawing">
       <div class="challenge-htmlcanvas">
-        <canvas id="draw"></canvas>
+        <canvas id="draw" width="923" height="417"></canvas>
         <script>
           const canvas = document.querySelector('#draw');
           const ctx = canvas.getContext('2d');
-          canvas.width = window.innerWidth;
-          canvas.height = window.innerHeight;
           ctx.strokeStyle = '#BADA55';
           ctx.lineJoin = 'round';
           ctx.lineCap = 'round';
