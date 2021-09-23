@@ -1,0 +1,139 @@
+.container-challenges {
+  p {
+    margin-bottom: 2rem;
+    color: #9e9e9e;;
+  }
+}
+
+.challenges-geo-count {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 5%;
+  margin-bottom: 5%;
+  .challenge-geolocation {
+    background-color: #3333FF;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8%;
+    .arrow {
+      width: 250px;
+      overflow: hidden;
+      transition: all 0.2s;
+      transform: rotate(0deg);
+      display: inline-block;
+    }
+    h1 {
+      color: white;
+      font-weight: 100;
+      font-size: 60px;
+      display: flex;
+      align-items: center;
+    }
+    .units {
+      font-size: 15px;
+    }
+  }
+
+  .challenge-countdown {
+    background-color: #1C1E27;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    .display__time-left {
+      font-weight: 100;
+      font-size: 5rem;
+      margin: 0;
+      color: white;
+      text-shadow: 4px 4px 0 rgba(0,0,0,0.05);
+    }
+
+    .timer {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .timer__controls {
+      display: flex;
+    }
+
+    .timer__controls > * {
+      flex: 1;
+    }
+
+    .timer__controls form {
+      flex: 1;
+      display: flex;
+    }
+
+    .timer__controls input {
+      flex: 1;
+      border: 0;
+      padding: 2rem;
+    }
+
+    .timer__button {
+      background: none;
+      border: 0;
+      cursor: pointer;
+      color: white;
+      font-size: 1rem;
+      text-transform: uppercase;
+      background: rgba(0,0,0,0.1);
+      border-bottom: 3px solid rgba(0,0,0,0.2);
+      border-right: 1px solid rgba(0,0,0,0.2);
+      padding: 1rem;
+      font-family: 'Inconsolata', monospace;
+    }
+
+    .timer__button:hover,
+    .timer__button:focus {
+      background: rgba(0,0,0,0.2);
+      outline: 0;
+    }
+
+    .display {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 5%;
+    }
+
+    .display__end-time {
+      font-size: 1rem;
+      color: white;
+    }
+  }
+}
+
+.challenges-grid-drawing {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 5%;
+  margin-bottom: 5%;
+  .challenge-htmlcanvas {
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    height: 400px;
+    #draw {
+      width: 100%;
+    }
+  }
+  .challenge-htmlcanvas-drawing {
+    background-color: #1C1E27;
+    color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100%;
+    }
+  }
+}
