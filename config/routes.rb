@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get 'artco', to: 'pages#artco', as: :artco
   get 'hatsrats', to: 'pages#hatsrats', as: :hatsrats
   get 'movies', to: 'pages#movies', as: :movies
+  get 'forfun', to: 'pages#forfun', as: :forfun
 end

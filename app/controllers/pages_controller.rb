@@ -13,4 +13,7 @@ class PagesController < ApplicationController
 
   def movies
   end
+
+  def forfun
+  end
 end
