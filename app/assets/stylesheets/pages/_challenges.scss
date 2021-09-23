@@ -133,3 +133,27 @@
     }
   }
 }
+
+// Small devices
+@media (max-width: 999px) {
+  .challenges-geo-count {
+    grid-template-columns: 1fr;
+    margin-bottom: 20%;
+    .challenge-geolocation, .challenge-countdown {
+      max-width: 350px;
+      .timer__controls {
+        flex-wrap: wrap;
+      }
+    }
+  }
+  .challenges-grid-drawing {
+    display: none;
+  }
+}
+
+// Medium devices
+@media (min-width: 1000px) and (max-width: 1700px) {
+  .challenges-grid-drawing {
+    grid-template-columns: 1fr;
+  }
+}
