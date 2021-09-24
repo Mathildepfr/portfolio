@@ -20,6 +20,9 @@ class PagesController < ApplicationController
   def landingpage
   end
 
+  def mapwagon
+  end
+
   def forfun
   end
 end

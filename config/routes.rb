@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get 'movies', to: 'pages#movies', as: :movies
   get 'fooddelivery', to: 'pages#fooddelivery', as: :fooddelivery
   get 'landingpage', to: 'pages#landingpage', as: :landingpage
+  get 'mapwagon', to: 'pages#mapwagon', as: :mapwagon
 
   get 'forfun', to: 'pages#forfun', as: :forfun
 end
