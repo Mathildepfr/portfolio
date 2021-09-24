@@ -106,6 +106,20 @@
       <% end %>
       <p>Map Le Wagon</p>
     </div>
+
+    <div class="home-projects-card">
+      <%= link_to restaurant_path(@restaurant) do %>
+        <%= image_tag "mockup-restaurant.png", alt:"Mexican Restaurant", class:"img-fluid  img-project"%>
+      <% end %>
+      <p>Mexican Restaurant</p>
+    </div>
+
+    <div class="home-projects-card">
+      <%= link_to infocards_path(@infocards) do %>
+        <%= image_tag "mockup-info-cards.png", alt:"Info Cards", class:"img-fluid  img-project"%>
+      <% end %>
+      <p>Info Cards</p>
+    </div>
   </div>
 </div>
 

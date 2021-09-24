@@ -23,6 +23,12 @@ class PagesController < ApplicationController
   def mapwagon
   end
 
+  def infocards
+  end
+
+  def restaurant
+  end
+
   def forfun
   end
 end
