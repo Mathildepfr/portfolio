@@ -14,6 +14,12 @@ class PagesController < ApplicationController
   def movies
   end
 
+  def fooddelivery
+  end
+
+  def landingpage
+  end
+
   def forfun
   end
 end
