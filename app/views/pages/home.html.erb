@@ -67,7 +67,7 @@
   <div class="home-projects">
     <div class="home-projects-card">
       <%= link_to artco_path(@artco) do %>
-        <%= image_tag "ArtCo-computer.jpg", alt:"Art Co landing page", class:"img-fluid  img-project"%>
+        <%= image_tag "mockup-art-co.png", alt:"Art Co landing page", class:"img-fluid  img-project"%>
       <% end %>
       <p>Art Co</p>
     </div>
@@ -81,9 +81,23 @@
 
     <div class="home-projects-card">
       <%= link_to hatsrats_path(@hatsrats) do %>
-        <%= image_tag "portfolio/Ratforhat1.jpg", alt:"Hats for Rats landing page", class:"img-fluid  img-project"%>
+        <%= image_tag "mockup-rats.png", alt:"Hats for Rats landing page", class:"img-fluid  img-project"%>
       <% end %>
       <p>Hats for Rats</p>
+    </div>
+
+    <div class="home-projects-card">
+      <%= link_to movies_path(@movies) do %>
+        <%= image_tag "mockup-food-delivery.png", alt:"Food Delivery", class:"img-fluid  img-project"%>
+      <% end %>
+      <p>Food delivery</p>
+    </div>
+
+    <div class="home-projects-card">
+      <%= link_to hatsrats_path(@hatsrats) do %>
+        <%= image_tag "mockup-lp.png", alt:"Landing page", class:"img-fluid  img-project"%>
+      <% end %>
+      <p>Landing Page</p>
     </div>
   </div>
 </div>
