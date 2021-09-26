@@ -273,6 +273,12 @@
   .container-dark {
     margin-top: 25%;
   }
+  .technologies-cards {
+    grid-template-columns: 1fr;
+  }
+  .container-dark .technologies-cards {
+    height: 650px;
+  }
 }
 
 // Medium devices
