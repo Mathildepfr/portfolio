@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'mapwagon', to: 'pages#mapwagon', as: :mapwagon
   get 'infocards', to: 'pages#infocards', as: :infocards
   get 'restaurant', to: 'pages#restaurant', as: :restaurant
+  get 'flats', to: 'pages#flats', as: :flats
 
   get 'forfun', to: 'pages#forfun', as: :forfun
 end

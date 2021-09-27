@@ -29,6 +29,9 @@ class PagesController < ApplicationController
   def restaurant
   end
 
+  def flats
+  end
+
   def forfun
   end
 end
