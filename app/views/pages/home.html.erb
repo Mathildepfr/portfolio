@@ -100,10 +100,10 @@
     </div>
 
     <div class="home-projects-card">
-      <%= link_to hatsrats_path(@hatsrats) do %>
-        <%= image_tag "mockup-rats.png", alt:"Hats for Rats landing page", class:"img-fluid  img-project"%>
+      <%= link_to homeweb_path(@homeweb) do %>
+        <%= image_tag "mockup-home.png", alt:"Staying Home", class:"img-fluid  img-project"%>
       <% end %>
-      <p>Hats for Rats</p>
+      <p>Staying Home</p>
     </div>
 
     <div class="home-projects-card">
@@ -114,24 +114,10 @@
     </div>
 
     <div class="home-projects-card">
-      <%= link_to landingpage_path(@landingpage) do %>
-        <%= image_tag "mockup-lp.png", alt:"Landing page", class:"img-fluid  img-project"%>
+      <%= link_to hatsrats_path(@hatsrats) do %>
+        <%= image_tag "mockup-rats.png", alt:"Hats for Rats landing page", class:"img-fluid  img-project"%>
       <% end %>
-      <p>Landing Page</p>
-    </div>
-
-    <div class="home-projects-card">
-      <%= link_to mapwagon_path(@mapwagon) do %>
-        <%= image_tag "mockup-wagon.png", alt:"Map Le Wagon", class:"img-fluid  img-project"%>
-      <% end %>
-      <p>Map Le Wagon</p>
-    </div>
-
-    <div class="home-projects-card">
-      <%= link_to restaurant_path(@restaurant) do %>
-        <%= image_tag "mockup-restaurant.png", alt:"Mexican Restaurant", class:"img-fluid  img-project"%>
-      <% end %>
-      <p>Mexican Restaurant</p>
+      <p>Hats for Rats</p>
     </div>
 
     <div class="home-projects-card">
@@ -147,6 +133,28 @@
       <% end %>
       <p>Rent Flats</p>
     </div>
+
+    <div class="home-projects-card">
+      <%= link_to mapwagon_path(@mapwagon) do %>
+        <%= image_tag "mockup-wagon.png", alt:"Map Le Wagon", class:"img-fluid  img-project"%>
+      <% end %>
+      <p>Map Le Wagon</p>
+    </div>
+
+    <div class="home-projects-card">
+      <%= link_to landingpage_path(@landingpage) do %>
+        <%= image_tag "mockup-lp.png", alt:"Landing page", class:"img-fluid  img-project"%>
+      <% end %>
+      <p>Landing Page</p>
+    </div>
+
+    <div class="home-projects-card">
+      <%= link_to restaurant_path(@restaurant) do %>
+        <%= image_tag "mockup-restaurant.png", alt:"Mexican Restaurant", class:"img-fluid  img-project"%>
+      <% end %>
+      <p>Mexican Restaurant</p>
+    </div>
+
   </div>
 </div>
 

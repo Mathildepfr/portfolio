@@ -32,6 +32,9 @@ class PagesController < ApplicationController
   def flats
   end
 
+  def homeweb
+  end
+
   def forfun
   end
 end

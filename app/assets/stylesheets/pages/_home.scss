@@ -152,6 +152,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2%;
+  height: 1430px;
   img {
     width: 100%;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
@@ -274,10 +275,13 @@
   }
   .home-projects {
     grid-template-columns: 1fr;
-    height: 3600px;
+    height: 4080px;
   }
   .home-cards-behance {
     grid-template-columns: 1fr!important;
+  }
+  .home-behance {
+    height: 7500px;
   }
   .contact-me {
     display: none;

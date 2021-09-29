@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get 'infocards', to: 'pages#infocards', as: :infocards
   get 'restaurant', to: 'pages#restaurant', as: :restaurant
   get 'flats', to: 'pages#flats', as: :flats
+  get 'homeweb', to: 'pages#homeweb', as: :homeweb
 
   get 'forfun', to: 'pages#forfun', as: :forfun
 end
