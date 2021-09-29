@@ -171,6 +171,10 @@
 
 .home-behance {
   margin-bottom: 10%;
+  height: 1690px;
+  h4 {
+    margin-bottom: 2%;
+  }
   .home-cards-behance {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -251,6 +255,15 @@
       color: #ababab;
       margin-bottom: 0;
     }
+  }
+}
+
+.footer {
+  text-align: center;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  h4 {
+
   }
 }
 
