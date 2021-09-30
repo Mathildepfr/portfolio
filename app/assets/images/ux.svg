@@ -1,0 +1,34 @@
+<svg width="512" height="399" viewBox="0 0 512 399" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="10.5" y="10.5" width="491" height="325" rx="33.5" stroke="white" stroke-width="21"/>
+<path d="M202 337V388" stroke="white" stroke-width="21"/>
+<path d="M309 337V388" stroke="white" stroke-width="21"/>
+<path d="M116.5 388.5H396.5" stroke="white" stroke-width="21"/>
+<path d="M13 271.5H499" stroke="white" stroke-width="21"/>
+<circle cx="449" cy="304" r="10.5" stroke="white" stroke-width="11"/>
+<circle cx="363" cy="304" r="10.5" stroke="white" stroke-width="11"/>
+<circle cx="406" cy="304" r="10.5" stroke="white" stroke-width="11"/>
+<mask id="path-9-inside-1" fill="white">
+<rect x="141" y="42" width="72" height="72" rx="15"/>
+</mask>
+<rect x="141" y="42" width="72" height="72" rx="15" stroke="white" stroke-width="42" mask="url(#path-9-inside-1)"/>
+<mask id="path-10-inside-2" fill="white">
+<rect x="385" y="173" width="72" height="72" rx="15"/>
+</mask>
+<rect x="385" y="173" width="72" height="72" rx="15" stroke="white" stroke-width="42" mask="url(#path-10-inside-2)"/>
+<mask id="path-11-inside-3" fill="white">
+<rect x="85" y="170" width="72" height="72" rx="15"/>
+</mask>
+<rect x="85" y="170" width="72" height="72" rx="15" stroke="white" stroke-width="42" mask="url(#path-11-inside-3)"/>
+<mask id="path-12-inside-4" fill="white">
+<rect x="243" y="129" width="72" height="72" rx="15"/>
+</mask>
+<rect x="243" y="129" width="72" height="72" rx="15" stroke="white" stroke-width="42" mask="url(#path-12-inside-4)"/>
+<mask id="path-13-inside-5" fill="white">
+<rect x="307" y="42" width="72" height="72" rx="15"/>
+</mask>
+<rect x="307" y="42" width="72" height="72" rx="15" stroke="white" stroke-width="42" mask="url(#path-13-inside-5)"/>
+<path d="M319 80.5H204" stroke="white" stroke-width="21"/>
+<path d="M178.5 105C178.5 126.5 174.5 155.5 207 155.5C233.5 155.5 239.5 155.5 255.5 155.5" stroke="white" stroke-width="21"/>
+<path d="M425.887 177C425.887 135.277 451.5 77 405.202 79C385.986 79.8301 381.613 79 370 79" stroke="white" stroke-width="21"/>
+<path d="M148 217.949C203.772 217.949 279 226.5 279 215.5C279 206.914 279 198.184 279 193" stroke="white" stroke-width="21"/>
+</svg>
