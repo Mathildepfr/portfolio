@@ -291,11 +291,10 @@
   .container-dark {
     margin-top: 25%;
   }
-  .technologies-cards {
-    grid-template-columns: 1fr;
-  }
   .container-dark .technologies-cards {
-    height: 650px;
+    height: 420px;
+    grid-template-columns: 1fr;
+    gap: 7%;
   }
 }
 
