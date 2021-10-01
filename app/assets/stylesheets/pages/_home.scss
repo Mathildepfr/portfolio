@@ -282,9 +282,10 @@
   }
   .home-cards-behance {
     grid-template-columns: 1fr!important;
+    gap: 1%!important;
   }
   .home-behance {
-    height: 7500px;
+    height: 6400px;
   }
   .contact-me {
     display: none;
