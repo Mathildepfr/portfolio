@@ -277,7 +277,8 @@
   }
   .home-projects {
     grid-template-columns: 1fr;
-    height: 4080px;
+    height: 3340px;
+    gap: 0;
   }
   .home-cards-behance {
     grid-template-columns: 1fr!important;
