@@ -274,6 +274,11 @@
   }
   .home-cards-presentation {
     grid-template-columns: 1fr;
+    .skills .navigation {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
   }
   .home-projects {
     grid-template-columns: 1fr;
@@ -294,7 +299,7 @@
     margin-top: 25%;
   }
   .container-dark .technologies-cards {
-    height: 420px;
+    height: 510px;
     grid-template-columns: 1fr;
     gap: 7%;
   }
