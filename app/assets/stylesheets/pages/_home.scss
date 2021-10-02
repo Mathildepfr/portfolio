@@ -60,6 +60,10 @@
     .navigation {
     display: flex;
     justify-content: center;
+    align-items: center;
+      img {
+        width: 40%;
+      }
       i {
         color: white;
         font-size: 40px;
@@ -277,7 +281,10 @@
     .skills .navigation {
     display: grid;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      img {
+        width: 80%;
+      }
     }
   }
   .home-projects {
