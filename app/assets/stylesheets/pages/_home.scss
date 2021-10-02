@@ -8,6 +8,7 @@
   background-color: #1C1E27;
   padding: 4%;
   margin-bottom: 3%;
+  height: auto;
   h1, h2, h3, a, p {
     font-size: 140%;
     color: white;
@@ -153,7 +154,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2%;
-  height: 1430px;
+  height: auto;
   img {
     width: 100%;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
@@ -173,7 +174,6 @@
 
 .home-behance {
   margin-bottom: 10%;
-  height: 1690px;
   h4 {
     margin-bottom: 2%;
   }
@@ -181,6 +181,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2%;
+    flex-grow: 1;
+    height: auto;
     .home-card-behance {
       img {
         width: 100%;
@@ -236,6 +238,8 @@
   gap: 15%;
   width: 60%;
   margin: 0 auto;
+  height: auto;
+  flex-grow: 1;
   .technologies {
     background-color: #3333FF;
     color: #1C1E27!important;
@@ -286,15 +290,11 @@
   }
   .home-projects {
     grid-template-columns: 1fr;
-    height: 3340px;
     gap: 0;
   }
   .home-cards-behance {
     grid-template-columns: 1fr!important;
     gap: 1%!important;
-  }
-  .home-behance {
-    height: 6400px;
   }
   .contact-me {
     display: none;
@@ -303,9 +303,8 @@
     margin-top: 25%;
   }
   .container-dark .technologies-cards {
-    height: 510px;
-    grid-template-columns: 1fr;
-    gap: 7%;
+    gap: 6%;
+    width: 100%;
   }
 }
 
