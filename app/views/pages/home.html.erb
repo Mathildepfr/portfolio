@@ -156,6 +156,13 @@
     </div>
 
     <div class="home-projects-card">
+      <%= link_to reactlist_path(@reactlist) do %>
+        <%= image_tag "mockup-react-list.png", alt:"React List Expenses", class:"img-fluid  img-project"%>
+      <% end %>
+      <p>React List Expenses</p>
+    </div>
+
+    <div class="home-projects-card">
       <%= link_to restaurant_path(@restaurant) do %>
         <%= image_tag "mockup-restaurant.png", alt:"Mexican Restaurant", class:"img-fluid  img-project"%>
       <% end %>

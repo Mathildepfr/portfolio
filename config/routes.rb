@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get 'restaurant', to: 'pages#restaurant', as: :restaurant
   get 'flats', to: 'pages#flats', as: :flats
   get 'homeweb', to: 'pages#homeweb', as: :homeweb
+  get 'reactlist', to: 'pages#reactlist', as: :reactlist
 
   get 'forfun', to: 'pages#forfun', as: :forfun
 end

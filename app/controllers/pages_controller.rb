@@ -35,6 +35,9 @@ class PagesController < ApplicationController
   def homeweb
   end
 
+  def reactlist
+  end
+
   def forfun
   end
 end
