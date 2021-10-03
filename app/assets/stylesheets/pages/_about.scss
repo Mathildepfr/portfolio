@@ -163,7 +163,7 @@
 }
 
 // Small devices
-@media (max-width: 999px) {
+@media (max-width: 355px) {
   .container-clock {
     display: none;
   }
@@ -182,11 +182,20 @@
 }
 
 // Medium devices
-@media (min-width: 1000px) and (max-width: 1700px) {
+@media (min-width: 356px) and (max-width: 930px) {
   .container-clock {
     display: none;
   }
   .about-navigation {
+    display: none;
+  }
+  .about-cards-presentation {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 931px) and (max-width: 1705px) {
+  .container-clock {
     display: none;
   }
 }
