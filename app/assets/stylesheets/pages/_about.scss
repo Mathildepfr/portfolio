@@ -192,6 +192,10 @@
   .about-cards-presentation {
     grid-template-columns: 1fr;
   }
+  .cards-illu {
+    grid-template-columns: 1fr 1fr!important;
+    height: 640px;
+  }
 }
 
 @media (min-width: 931px) and (max-width: 1705px) {
