@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   get 'flats', to: 'pages#flats', as: :flats
   get 'homeweb', to: 'pages#homeweb', as: :homeweb
   get 'reactlist', to: 'pages#reactlist', as: :reactlist
+  get 'reactfood', to: 'pages#reactfood', as: :reactfood
 
   get 'forfun', to: 'pages#forfun', as: :forfun
 end

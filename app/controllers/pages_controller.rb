@@ -38,6 +38,9 @@ class PagesController < ApplicationController
   def reactlist
   end
 
+  def reactfood
+  end
+
   def forfun
   end
 end
