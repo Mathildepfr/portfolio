@@ -2,5 +2,5 @@ This is my portfolio. 👩‍💻
 
 Have a look: http://www.mathildepeiffer.com/ 
 
-![Facebook post - 2 (5)](https://user-images.githubusercontent.com/86634734/135740470-836c5dee-651a-4949-8992-91878b7834ad.jpg)
 
+![cover](https://user-images.githubusercontent.com/86634734/136648381-3dee1894-e19f-4952-b6f6-69f59ccdc3e5.jpg)
