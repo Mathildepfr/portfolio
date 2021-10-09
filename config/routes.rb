@@ -15,6 +15,9 @@ Rails.application.routes.draw do
   get 'homeweb', to: 'pages#homeweb', as: :homeweb
   get 'reactlist', to: 'pages#reactlist', as: :reactlist
   get 'reactfood', to: 'pages#reactfood', as: :reactfood
+  get 'reactlogin', to: 'pages#reactlogin', as: :reactlogin
+  get 'reactchatbox', to: 'pages#reactchatbox', as: :reactchatbox
+  get 'reactgoals', to: 'pages#reactgoals', as: :reactgoals
 
   get 'forfun', to: 'pages#forfun', as: :forfun
 end

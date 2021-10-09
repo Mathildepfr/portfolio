@@ -90,7 +90,7 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container container-projects">
   <div class="home-projects">
     <div class="home-projects-card">
       <%= link_to artco_path(@artco) do %>
@@ -100,10 +100,10 @@
     </div>
 
     <div class="home-projects-card">
-      <%= link_to movies_path(@movies) do %>
-        <%= image_tag "Movies-computer.jpg", alt:"Movies landing page", class:"img-fluid  img-project"%>
+      <%= link_to reactlogin_path(@reactlogin) do %>
+        <%= image_tag "mockup-react-login.png", alt:"React Login", class:"img-fluid  img-project"%>
       <% end %>
-      <p>Movies & Lists</p>
+      <p>React Login</p>
     </div>
 
     <div class="home-projects-card">
@@ -114,17 +114,17 @@
     </div>
 
     <div class="home-projects-card">
-      <%= link_to fooddelivery_path(@fooddelivery) do %>
-        <%= image_tag "mockup-food-delivery.png", alt:"Food Delivery", class:"img-fluid  img-project"%>
+      <%= link_to reactchatbox_path(@reactchatbox) do %>
+        <%= image_tag "mockup-react-chatbox.png", alt:"React ChatBox", class:"img-fluid  img-project"%>
       <% end %>
-      <p>Food delivery</p>
+      <p>React ChatBox</p>
     </div>
 
     <div class="home-projects-card">
-      <%= link_to homeweb_path(@homeweb) do %>
-        <%= image_tag "mockup-home.png", alt:"Staying Home", class:"img-fluid  img-project"%>
+      <%= link_to reactgoals_path(@reactgoals) do %>
+        <%= image_tag "mockup-react-goals.png", alt:"React Goals", class:"img-fluid  img-project"%>
       <% end %>
-      <p>Staying Home</p>
+      <p>React Goals List</p>
     </div>
 
     <div class="home-projects-card">
@@ -135,24 +135,39 @@
     </div>
 
     <div class="home-projects-card">
+      <%= link_to homeweb_path(@homeweb) do %>
+        <%= image_tag "mockup-home.png", alt:"Staying Home", class:"img-fluid  img-project"%>
+      <% end %>
+      <p>Staying Home</p>
+    </div>
+
+    <div class="home-projects-card">
+      <%= link_to movies_path(@movies) do %>
+        <%= image_tag "Movies-computer.jpg", alt:"Movies landing page", class:"img-fluid  img-project"%>
+      <% end %>
+      <p>Movies & Lists</p>
+    </div>
+
+    <div class="home-projects-card">
       <%= link_to hatsrats_path(@hatsrats) do %>
         <%= image_tag "mockup-rats.png", alt:"Hats for Rats landing page", class:"img-fluid  img-project"%>
       <% end %>
       <p>Hats for Rats</p>
     </div>
 
-    <div class="home-projects-card">
-      <%= link_to mapwagon_path(@mapwagon) do %>
-        <%= image_tag "mockup-wagon.png", alt:"Map Le Wagon", class:"img-fluid  img-project"%>
-      <% end %>
-      <p>Map Le Wagon</p>
-    </div>
 
     <div class="home-projects-card">
       <%= link_to flats_path(@flats) do %>
         <%= image_tag "mockup-airbnb-computer2.png", alt:"Flat", class:"img-fluid  img-project"%>
       <% end %>
       <p>Rent Flats</p>
+    </div>
+
+    <div class="home-projects-card">
+      <%= link_to fooddelivery_path(@fooddelivery) do %>
+        <%= image_tag "mockup-food-delivery.png", alt:"Food Delivery", class:"img-fluid  img-project"%>
+      <% end %>
+      <p>Food delivery</p>
     </div>
 
     <div class="home-projects-card">
@@ -163,20 +178,25 @@
     </div>
 
     <div class="home-projects-card">
-      <%= link_to reactlist_path(@reactlist) do %>
-        <%= image_tag "mockup-react-list.png", alt:"React List Expenses", class:"img-fluid  img-project"%>
+      <%= link_to mapwagon_path(@mapwagon) do %>
+        <%= image_tag "mockup-wagon.png", alt:"Map Le Wagon", class:"img-fluid  img-project"%>
       <% end %>
-      <p>React List Expenses</p>
+      <p>Map Le Wagon</p>
     </div>
 
     <div class="home-projects-card">
       <%= link_to restaurant_path(@restaurant) do %>
         <%= image_tag "mockup-restaurant.png", alt:"Mexican Restaurant", class:"img-fluid  img-project"%>
       <% end %>
-      <p>Mexican Restaurant</p>
+      <p>Restaurant</p>
     </div>
 
-
+    <div class="home-projects-card">
+      <%= link_to reactlist_path(@reactlist) do %>
+        <%= image_tag "mockup-react-list.png", alt:"React List Expenses", class:"img-fluid  img-project"%>
+      <% end %>
+      <p>React List Expenses</p>
+    </div>
   </div>
 </div>
 

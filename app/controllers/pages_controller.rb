@@ -41,6 +41,15 @@ class PagesController < ApplicationController
   def reactfood
   end
 
+  def reactchatbox
+  end
+
+  def reactlogin
+  end
+
+  def reactgoals
+  end
+
   def forfun
   end
 end
