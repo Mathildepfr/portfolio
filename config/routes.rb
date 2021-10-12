@@ -18,6 +18,7 @@ Rails.application.routes.draw do
   get 'reactlogin', to: 'pages#reactlogin', as: :reactlogin
   get 'reactchatbox', to: 'pages#reactchatbox', as: :reactchatbox
   get 'reactgoals', to: 'pages#reactgoals', as: :reactgoals
+  get 'reactrecipes', to: 'pages#reactrecipes', as: :reactrecipes
 
   get 'forfun', to: 'pages#forfun', as: :forfun
 end

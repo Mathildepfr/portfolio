@@ -50,6 +50,9 @@ class PagesController < ApplicationController
   def reactgoals
   end
 
+  def reactrecipes
+  end
+
   def forfun
   end
 end
