@@ -92,11 +92,12 @@
 
 <div class="container container-projects">
   <div class="home-projects">
+
     <div class="home-projects-card">
-      <%= link_to artco_path(@artco) do %>
-        <%= image_tag "mockup-art-co.png", alt:"Art Co landing page", class:"img-fluid  img-project"%>
+      <%= link_to framework_path(@framework) do %>
+        <%= image_tag "Framework.png", alt:"Framework", class:"img-fluid  img-project"%>
       <% end %>
-      <p>Art Co</p>
+      <p>Framework</p>
     </div>
 
     <div class="home-projects-card">
@@ -107,10 +108,10 @@
     </div>
 
     <div class="home-projects-card">
-      <%= link_to reactfood_path(@reactfood) do %>
-        <%= image_tag "mockup-react-food-order.png", alt:"React Food Order", class:"img-fluid  img-project"%>
+      <%= link_to artco_path(@artco) do %>
+        <%= image_tag "mockup-art-co.png", alt:"Art Co landing page", class:"img-fluid  img-project"%>
       <% end %>
-      <p>React Food Order</p>
+      <p>Art Co</p>
     </div>
 
     <div class="home-projects-card">
@@ -135,10 +136,10 @@
     </div>
 
     <div class="home-projects-card">
-      <%= link_to homeweb_path(@homeweb) do %>
-        <%= image_tag "mockup-home.png", alt:"Staying Home", class:"img-fluid  img-project"%>
+      <%= link_to reactfood_path(@reactfood) do %>
+        <%= image_tag "mockup-react-food-order.png", alt:"React Food Order", class:"img-fluid  img-project"%>
       <% end %>
-      <p>Staying Home</p>
+      <p>React Food Order</p>
     </div>
 
     <div class="home-projects-card">
@@ -149,10 +150,10 @@
     </div>
 
     <div class="home-projects-card">
-      <%= link_to hatsrats_path(@hatsrats) do %>
-        <%= image_tag "mockup-rats.png", alt:"Hats for Rats landing page", class:"img-fluid  img-project"%>
+      <%= link_to homeweb_path(@homeweb) do %>
+        <%= image_tag "mockup-home.png", alt:"Staying Home", class:"img-fluid  img-project"%>
       <% end %>
-      <p>Hats for Rats</p>
+      <p>Staying Home</p>
     </div>
 
     <div class="home-projects-card">
@@ -163,10 +164,10 @@
     </div>
 
     <div class="home-projects-card">
-      <%= link_to flats_path(@flats) do %>
-        <%= image_tag "mockup-airbnb-computer2.png", alt:"Flat", class:"img-fluid  img-project"%>
+      <%= link_to hatsrats_path(@hatsrats) do %>
+        <%= image_tag "mockup-rats.png", alt:"Hats for Rats landing page", class:"img-fluid  img-project"%>
       <% end %>
-      <p>Rent Flats</p>
+      <p>Hats for Rats</p>
     </div>
 
     <div class="home-projects-card">
@@ -177,10 +178,10 @@
     </div>
 
     <div class="home-projects-card">
-      <%= link_to landingpage_path(@landingpage) do %>
-        <%= image_tag "mockup-lp.png", alt:"Landing page", class:"img-fluid  img-project"%>
+      <%= link_to flats_path(@flats) do %>
+        <%= image_tag "mockup-airbnb-computer2.png", alt:"Flat", class:"img-fluid  img-project"%>
       <% end %>
-      <p>Landing Page</p>
+      <p>Rent Flats</p>
     </div>
 
     <div class="home-projects-card">
@@ -191,10 +192,10 @@
     </div>
 
     <div class="home-projects-card">
-      <%= link_to restaurant_path(@restaurant) do %>
-        <%= image_tag "mockup-restaurant.png", alt:"Mexican Restaurant", class:"img-fluid  img-project"%>
+      <%= link_to landingpage_path(@landingpage) do %>
+        <%= image_tag "mockup-lp.png", alt:"Landing page", class:"img-fluid  img-project"%>
       <% end %>
-      <p>Restaurant</p>
+      <p>Landing Page</p>
     </div>
 
     <div class="home-projects-card">
@@ -203,6 +204,14 @@
       <% end %>
       <p>React List Expenses</p>
     </div>
+
+    <div class="home-projects-card">
+      <%= link_to restaurant_path(@restaurant) do %>
+        <%= image_tag "mockup-restaurant.png", alt:"Mexican Restaurant", class:"img-fluid  img-project"%>
+      <% end %>
+      <p>Restaurant</p>
+    </div>
+
   </div>
 </div>
 

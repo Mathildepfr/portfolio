@@ -5,6 +5,9 @@ class PagesController < ApplicationController
   def home
   end
 
+  def framework
+  end
+
   def artco
   end
 

@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root to: 'pages#home'
   get 'about', to: 'pages#about', as: :about
 
+  get 'framework', to: 'pages#framework', as: :framework
   get 'artco', to: 'pages#artco', as: :artco
   get 'hatsrats', to: 'pages#hatsrats', as: :hatsrats
   get 'movies', to: 'pages#movies', as: :movies
